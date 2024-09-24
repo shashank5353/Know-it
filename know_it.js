@@ -550,8 +550,8 @@ const slide_bar=document.querySelector(".slide_bar");
 const s_bar=document.querySelector(".s_bar");
 let s=1;
 const slide=()=>{
-  slide_bar.style.backgroundImage=`url(Know-it/s/s${s}.jpg)`;
-  s_bar.style.backgroundImage=`url(Know-it//s/s${s}.jpg)`;
+  slide_bar.style.backgroundImage=`url(s/s${s}.jpg)`;
+  s_bar.style.backgroundImage=`url(s/s${s}.jpg)`;
 }
 const backword=document.querySelector(".backword");
 const forword=document.querySelector(".forword");
@@ -615,7 +615,7 @@ if(past!=m_db[8][i]){
   option.classList.add("option");
   const bg=document.createElement("div");
   bg.classList.add("bg");
-  bg.style.backgroundImage=`url('Know-it/food/r${m_db[8][i]}/m${m_p}.jpg') `;
+  bg.style.backgroundImage=`url('food/r${m_db[8][i]}/m${m_p}.jpg') `;
   
   option.append(bg);
   
@@ -706,7 +706,7 @@ if(past!=m_db[8][i]){
      const item_rating_value=document.querySelector(".item_rating_value");
      item_rating_value.innerText=`${rating_value[i]}`;
      const menu_photo=document.querySelector(".menu_photo");
-     menu_photo.style.backgroundImage=`url(Know-it/m_c/m_c${m_db[8][i]}.jpg)`;
+     menu_photo.style.backgroundImage=`url(m_c/m_c${m_db[8][i]}.jpg)`;
      const back_btn=document.querySelector(".back_btn");
      back_btn.addEventListener("click",()=>{
        to_top();
@@ -780,7 +780,7 @@ const options=document.querySelector(".options");
   option.classList.add("option");
   const bg=document.createElement("div");
   bg.classList.add("bg");
-  bg.style.backgroundImage=`url('Know-it/sr/sr${i+1}.jpg') `;
+  bg.style.backgroundImage=`url('sr/sr${i+1}.jpg') `;
   option.append(bg);
   
   const option_main_info=document.createElement("div");
@@ -846,7 +846,7 @@ const options=document.querySelector(".options");
      to_top();
      const item_display=document.querySelector(".r_display");
      const item_bg=document.querySelector(".r_bg");
-     item_bg.style.backgroundImage=`url('Know-it/sr/sr${i+1}.jpg') `
+     item_bg.style.backgroundImage=`url('sr/sr${i+1}.jpg') `
      const item_name=document.querySelector(".r_item_name");
      item_name.innerText=`${name[i]}`;
      const item_info=document.querySelector(".r_item_info");
@@ -862,7 +862,7 @@ const options=document.querySelector(".options");
     // console.log(rating_value[i]);
     
      const r_menu_photo=document.querySelector(".r_menu_photo");
-     r_menu_photo.style.backgroundImage=`url(Know-it/m_c/m_c${i}.jpg)`;
+     r_menu_photo.style.backgroundImage=`url(m_c/m_c${i}.jpg)`;
      const back_btn=document.querySelector(".r_back_btn");
      
      back_btn.addEventListener("click",()=>{
