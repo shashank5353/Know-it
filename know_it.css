@@ -276,7 +276,7 @@ span{
   flex-wrap: wrap;
   flex-direction: column; 
   /* overflow-x:scroll; */
-  background-image: url("/s/s1.jpg");
+  background-image: url("s/s1.jpg");
   background-size:cover;
   transition:all 0.5s;
 }
@@ -437,7 +437,7 @@ span{
   width:100vw;
   min-height:100vh;
   background-color:black;
-  background-image: url('/u1j.png');
+  /*background-image: url('/u1j.png');*/
   background-size: cover;
   display:flex;
   flex-direction: column;
