@@ -6,7 +6,7 @@
   font-family:Arial;
 }
 body{
-  margin-bottom: 10vh;
+  margin-bottom: 0vh;
   width:100vw;
   display:flex;
   flex-direction: column;
